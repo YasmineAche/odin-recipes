@@ -1,0 +1,44 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: "Emilys Candy";
+  background-color: #28340b;
+  text-align: center;
+}
+h1 {
+  padding-top: 50px;
+  font-size: 80px;
+  color: #aec09a;
+  text-shadow: 2px 2px 10px #aec670;
+}
+ul li {
+  display: inline-block;
+  border: 5px solid #778d45;
+  margin: 100px;
+  padding-bottom: 10px;
+  box-shadow: 5px 5px 16px #080c00;
+  border-radius: 10px;
+}
+ul li a {
+  display: block;
+  text-decoration: none;
+  color: #aec670;
+  font-size: 25px;
+}
+ul li:hover {
+  border: 5px solid #aec09a;
+  box-shadow: 5px 5px 16px #aec09a;
+}
+ul li a:hover,
+footer strong a {
+  color: #aec09a;
+}
+footer strong {
+  color: #aec670;
+  float: left;
+  margin-left: 20px;
+}
+footer p {
+  font-size: 80px;
+}
